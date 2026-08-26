@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1 99 46" fill="none" role="img" aria-hidden="true" focusable="false">
+  <!--
+    North Plan Digital mark.
+
+    Two elements, and they are deliberately different colours: the range is
+    solid and takes currentColor, the rising arrow is Warm Stone. That split
+    is the whole logo - a cool, fixed massif with one warm line moving up
+    across it - so the arrow must never inherit the range's colour.
+
+    The snow lines are subpaths cut out with fill-rule="evenodd" rather than
+    strokes in the background colour. A background-coloured stroke only looks
+    right on the one background it was picked for; a hole is correct on any
+    of them, including the navy card, the mist page and a photograph.
+  -->
+  <path
+    fill="currentColor"
+    fill-rule="evenodd"
+    d="M3,43 L21,19 L31,29 L45,10 L57,25 L68,6 L88,43 Z
+       M16.13,25.5 L21,19 L27.5,25.5 L25.3,25.5 L21,21.2 L17.78,25.5 Z
+       M38.37,19 L45,10 L52.2,19 L50.12,19 L45,12.6 L40.28,19 Z
+       M61.63,17 L68,6 L73.95,17 L72.22,17 L68,9.2 L63.48,17 Z"
+  />
+  <!--
+    One continuous accelerating curve: nearly flat where it enters at the
+    left, steepest as it leaves past the tallest peak. The two cubics are
+    tangent-matched at 64,23 (the second's first control lies on the first's
+    outgoing tangent) so the join reads as a single sweep, not two arcs.
+  -->
+  <g
+    stroke="#a3927c"
+    style="stroke: var(--brand-lit, #a3927c)"
+    stroke-width="3.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M0,42.5 C22,41.5 48,34.5 64,23 C76,14.375 86,9 93,2.5" />
+    <path d="M84.59,5.7 L93,2.5 L89.18,10.65" />
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>North Plan Digital</title>
+  <!--
+    The app-icon lockup from the identity sheet: North Navy tile, Pearl
+    range, Warm Stone arrow.
+
+    Fixed hexes, not tokens - a favicon is rendered by the browser chrome
+    with no page and no custom properties in scope, so var() here would
+    resolve to nothing. It is also the one place the mark is drawn WITHOUT
+    its snow lines: this is asked for at 16px in a tab, where a 0.5px hole
+    is not a snow line, just a dirty edge. The identity has a simplified
+    icon for exactly this reason.
+  -->
+  <rect width="64" height="64" rx="14" fill="#0f1a2b"/>
+  <g transform="translate(7.1 19.8) scale(0.53)">
+    <path fill="#f7f5f2" d="M3,43 L21,19 L31,29 L45,10 L57,25 L68,6 L88,43 Z"/>
+    <g fill="none" stroke="#a3927c" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,42.5 C22,41.5 48,34.5 64,23 C76,14.375 86,9 93,2.5"/>
+      <path d="M84.59,5.7 L93,2.5 L89.18,10.65"/>
+    </g>
+  </g>
+</svg>
