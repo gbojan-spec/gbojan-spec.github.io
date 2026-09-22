@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "encoding": "delta12-split",
+  "maps": {
+    "massif-513": {
+      "file": "massif-513.bin",
+      "resolution": 513,
+      "kind": "massif"
+    },
+    "massif-1025": {
+      "file": "massif-1025.bin",
+      "resolution": 1025,
+      "kind": "massif"
+    },
+    "horizon-257": {
+      "file": "horizon-257.bin",
+      "resolution": 257,
+      "kind": "horizon"
+    },
+    "horizon-513": {
+      "file": "horizon-513.bin",
+      "resolution": 513,
+      "kind": "horizon"
+    }
+  }
+}
